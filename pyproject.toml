@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ees-directory"
+version = "0.1.0"
+description = "Script to generate a PDF parent directory based on a CSV file"
+authors = ["Daniel Kowalewski <daniel@dankow.net>"]
+license = "https://www.apache.org/licenses/LICENSE-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fpdf = "^1.7.2"
+phonenumbers = "^8.12.55"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
